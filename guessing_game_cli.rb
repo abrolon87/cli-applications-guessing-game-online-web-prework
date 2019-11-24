@@ -5,7 +5,7 @@ def run_guessing_game
     puts "Goodbye!"
   elsif input == special
         puts "You guessed the correct number!"
-      else input == special
+      else 
         puts "Sorry! The computer guessed #{special}"
   end
 end
